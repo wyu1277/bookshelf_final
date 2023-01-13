@@ -1,0 +1,113 @@
+#book_shelf {
+   overflow: scroll;
+   width: 80%;
+   height: 100%;
+}
+
+body {
+    background-image: url("https://a.cdn-hotels.com/gdcs/production179/d1229/0a0e6304-350d-48f7-aa54-cd3b01d1901a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#links > a{
+    font-size: 30px;
+}
+
+a {
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+    margin: 8px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+label {
+    background-color: white;
+}
+
+button, label, select {
+    font-size: 22px;
+    padding: 8px;
+    color: black;
+    background-color: #B7C3F3;
+}
+#select_div {
+    margin-top: 28px;
+    margin-left: 18px;
+}
+select {
+    margin-left: 20px;
+}
+input{
+    font-size: 22px;
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+#btns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#add_form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 8px;
+}
+
+#ui {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact_info {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#about_info {
+    color: black;
+    font-size: 28px;
+    background-color: #B7C3F3;
+    width: 70%;
+    margin: 8px;
+    text-align: center;
+}
+
+#feedback {
+    font-size: 18px;
+}

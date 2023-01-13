@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilson's Book Catalog</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div id="search_div">
+            <input type="text" id='search_input' placeholder="search for a book...">
+            <button id="search_btn">
+                    search
+                </span>
+            </button>
+        </div>
+        <div id="links">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    <ul id="book_shelf"></ul>
+    <div id="ui">
+        <div id="btns">
+            <button id="all">All Books</button>
+            <button id="favs">Favorite Books</button>
+            <div id="select_div">
+                <label for="dropdown">Sort by:</label>
+                 <select id="dropdown">
+                    <option value="">Select an option</option>
+                    <option value="alphabetical">A-Z</option>
+                    <option value="reverse">Z-A</option>
+                    <option value="topics"># of topics</option>
+                </select>
+            </div>
+        </div>
+        <form id="add_form">
+            <input type="text" id="title_input" placeholder="Title">
+            <input type="text" id="author_input" placeholder="Author">
+            <input type="text" id="language_input" placeholder="Language">
+            <input type="text" id="subject" placeholder="Subjects">
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
+</body>
+
+<script type="module" src="index.js"></script>
+</html>
